@@ -13,5 +13,11 @@ module.exports =
   },
   "rules": {
     "indent": ["error", 2],
-  }
+  },
+  globals: {
+    defineProps: "readonly",
+    defineEmits: "readonly",
+    defineExpose: "readonly",
+    withDefaults: "readonly",
+  },
 };

@@ -2,7 +2,6 @@
   <div class="myChild" @click="triggerEvent">我是子组件{{count}}</div>
 </template>
 <script setup>
-import { defineProps, defineEmits } from "vue";
 
 defineProps({
   count: {

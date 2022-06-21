@@ -12,6 +12,7 @@ module.exports = defineConfig({
       .set('@assets',resolve('./src/assets'))
       .set('@pages',resolve('./src/pages'))
       .set('@utils',resolve('./src/utils'))
+      .set('@components',resolve('./src/components'))
   },
   pluginOptions: {
     "style-resources-loader": {
